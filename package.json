@@ -1,6 +1,6 @@
 {
   "name": "pcadmin-pagination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pcadmin,pagination组件",
   "main": "index.js",
   "scripts": {

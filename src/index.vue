@@ -19,7 +19,7 @@
 <style lang="less">
 
     @color: #5E6460;
-    @import '~pcadmin-base/lib/css/config.less';
+    @import '~pcadmin-base/src/css/var.less';
 
     .pagination[__vuec__] {
         a {
