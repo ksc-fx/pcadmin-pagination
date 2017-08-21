@@ -1,6 +1,6 @@
 {
   "name": "pcadmin-pagination",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pcadmin,pagination组件",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,11 @@
     "babel-core": "^6.23.1",
     "babel-loader": "^6.4.0",
     "css-loader": "^0.28.5",
-    "eslint-loader": "^1.7.1",
     "extract-text-webpack-plugin": "^2.0.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
     "sass-loader": "^6.0.6",
-    "url-loader": "^0.5.8",
+    "pcadmin-base": "^0.0.1",
     "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.4.2",

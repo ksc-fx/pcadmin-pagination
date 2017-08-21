@@ -1,27 +1,3 @@
-<!-- 调用说明 (组件table建议换成其它标签)
-        <page-bar
-            :total="pageParams.total"
-            :page-size="pageParams.pageSize"
-            :current.sync="pageParams.current"
-            :showNumber="pageParams.showNumber"
-            @changePage="changePage"
-        ></page-bar>
-        // pageParams: {
-        //     total: 199,
-        //     pageSize: 10,
-        //     current: 2,
-        //     showNumber: 8
-        // },
--->
-<!-- 参数说明 -->
-<!-- 注意：只有下面参数修改后才会触发重新渲染 -->
-<!-- 
-total: Number  必须 总条数
-current: Number  可选 当前选中页数。（默认1，建议添加，使用sync）（支持current.sync，子元素修改父级元素）
-showNumber: showNumber  可选 下面页码数量，（默认7个），
-pageSize: Number  可选 每页显示多少条（默认10）
-changePage: Function 必须  回调函数，返回选择的页码
--->
 <template>
     <div class="pagination" __vuec__  v-if="total>=1">
         <ul class="page-list">
@@ -43,7 +19,7 @@ changePage: Function 必须  回调函数，返回选择的页码
 <style lang="less">
 
     @color: #5E6460;
-    @currentColor: #1EC773;
+    @import '~pcadmin-base/lib/css/config.less';
 
     .pagination[__vuec__] {
         a {
