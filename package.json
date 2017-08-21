@@ -1,0 +1,41 @@
+{
+  "name": "pcadmin-pagination",
+  "version": "0.0.1",
+  "description": "pcadmin,pagination组件",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base examples --inline  --config scripts/webpack.config.js",
+    "build": "webpack -p -d --config scripts/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ksc-fx/pcadmin-pagination.git"
+  },
+  "keywords": [
+    "pagination"
+  ],
+  "engines": {
+    "node": ">=4.7.0"
+  },
+  "dependencies": {
+    "vue": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "css-loader": "^0.28.5",
+    "eslint-loader": "^1.7.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "sass-loader": "^6.0.6",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^13.0.4",
+    "vue-style-loader": "^3.0.1",
+    "vue-template-compiler": "^2.4.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "author": "1078612125@qq.com",
+  "license": "MIT"
+}
