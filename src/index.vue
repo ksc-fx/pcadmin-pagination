@@ -1,5 +1,5 @@
 <template>
-    <div class="pagination" __vuec__  v-if="total>=1">
+    <div class="pagination"  v-if="total>=1">
         <ul class="page-list">
             <li @click="prepage">
                 <span><</span>
@@ -16,12 +16,12 @@
         </ul>
     </div>
 </template>
-<style lang="less">
+<style lang="less" scoped>
 
     @color: #5E6460;
     @import '~pcadmin-base/src/css/var.less';
 
-    .pagination[__vuec__] {
+    .paginationss {
         a {
             color: @color;
         }
