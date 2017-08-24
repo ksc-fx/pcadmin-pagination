@@ -21,7 +21,7 @@
     @color: #5E6460;
     @import '~pcadmin-base/src/css/var.less';
 
-    .paginationss {
+    .pagination {
         a {
             color: @color;
         }
